@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ 
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+
+# Environment variables
+.env
+.env.*
+
+
+# Large datasets
+data/
+datasets/train/
+*.zip
+
+
+# DeepFashion images
+train/
+image/
+
+
+# Large model files
+models/*.bin
+models/*.pkl
+
+
+# Logs
+*.log
+
+
+# Temporary files
+*.tmp
+*.temp
