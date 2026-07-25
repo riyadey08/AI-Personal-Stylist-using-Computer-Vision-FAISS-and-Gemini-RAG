@@ -36,8 +36,7 @@ AI_Personal_Stylist/
 │   ├── features.csv
 │   ├── body_features_with_metadata.csv
 │   ├── knowledge_base.csv
-│   ├── fashion_knowledge_base.csv
-│   └── fashion_knowledge_base.xlsx
+│   └── fashion_knowledge_base.csv
 │
 ├── models/
 │   ├── faiss_index.bin
@@ -56,8 +55,8 @@ AI_Personal_Stylist/
 │   └── 05_AIStylist_RAG.ipynb
 │
 ├── requirements.txt
-├── README.md
-└── LICENSE
+├── fashion_knowledge_base.csv
+└── .gitignore
 ```
 
 ---
