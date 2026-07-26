@@ -200,18 +200,9 @@ No model retraining is required for inference.
 
 ![pretty-young-woman](images/pretty-young-woman.avif)
 
-### Pose Detection
-
-![Predictions](images/data.png)
-![Accuracy](images/accuracy.png)
-
-### Body Measurements
-
-*(Add screenshot)*
-
 ### Final Fashion Recommendation
 
-*(Add screenshot)*
+![Gemini recommendation1](images/Gemini recommendation1.png)
 
 ---
 
