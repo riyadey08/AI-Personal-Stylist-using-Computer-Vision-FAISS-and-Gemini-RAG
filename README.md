@@ -202,7 +202,7 @@ No model retraining is required for inference.
 
 ### Final Fashion Recommendation
 
-![Gemini recommendation1](images/Gemini recommendation1.png)
+![Gemini_recommendation1](images/Gemini_recommendation1.png)
 
 ---
 
