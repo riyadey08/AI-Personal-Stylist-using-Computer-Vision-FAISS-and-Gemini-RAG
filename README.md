@@ -198,11 +198,12 @@ No model retraining is required for inference.
 
 ### Input
 
-*(Add an example image here)*
+![pretty-young-woman](images/pretty-young-woman.avif)
 
 ### Pose Detection
 
-*(Add screenshot)*
+![Predictions](images/data.png)
+![Accuracy](images/accuracy.png)
 
 ### Body Measurements
 
@@ -224,16 +225,12 @@ No model retraining is required for inference.
 - Fine-tuned Fashion LLM
 - Virtual Try-On Integration
 
----
-
-##  License
-
-This project is licensed under the MIT License.
 
 ---
 
 ##  Author
+**Riya Dey**  
+*National Institute of Technology Durgapur*  
 
-**Riya Dey**
-
-If you found this project interesting, consider starring the repository.
+📧 [Email](mailto:riyadey3134@gmail.com)  
+🌐 [LinkedIn](https://www.linkedin.com/in/riya-dey-a31b43286)
