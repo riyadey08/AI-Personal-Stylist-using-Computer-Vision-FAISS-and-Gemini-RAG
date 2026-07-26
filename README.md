@@ -198,7 +198,7 @@ No model retraining is required for inference.
 
 ### Input
 
-![pretty-young-woman](images/pretty-young-woman.avif)
+![pretty_young_woman](images/pretty_young_woman.avif)
 
 ### Final Fashion Recommendation
 
