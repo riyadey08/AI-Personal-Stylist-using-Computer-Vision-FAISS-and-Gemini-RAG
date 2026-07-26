@@ -55,7 +55,7 @@ AI_Personal_Stylist/
 │   └── 05_AIStylist_RAG.ipynb
 │
 ├── requirements.txt
-├── fashion_knowledge_base.csv
+├── README.md
 └── .gitignore
 ```
 
@@ -76,6 +76,9 @@ Body Landmark Extraction
 Feature Engineering
       │
       ▼
+Rule-Based Body Shape Prediction                  
+      │
+      ▼
 Scaling + PCA
       │
       ▼
@@ -85,7 +88,7 @@ FAISS Similarity Search
 Retrieve Similar Fashion Knowledge
       │
       ▼
-Gemini (RAG)
+Gemini 2.5 Flash (RAG)
       │
       ▼
 Personalized Outfit Recommendations
