@@ -217,8 +217,16 @@ No model retraining is required for inference.
 - Fine-tune a fashion-specific language model.
 - Support multi-person outfit recommendations.
 
+---
+
+## Dataset
+
+The full dataset used for training is available here:
+
+[https://drive.google.com/drive/folders/159ARp9j2maH5kue9wRcMGpNpuDouNwsq?usp=sharing](https://drive.google.com/file/d/14BOexFbxex9WYqSAV7ytIIz-DJ7UAZi2/view?usp=sharing)
 
 ---
+
 
 ##  Author
 **Riya Dey**  
