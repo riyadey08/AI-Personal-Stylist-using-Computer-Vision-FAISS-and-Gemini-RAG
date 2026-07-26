@@ -4,7 +4,6 @@
 ![Computer Vision](https://img.shields.io/badge/Computer%20Vision-MediaPipe-green.svg)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange.svg)
 ![RAG](https://img.shields.io/badge/RAG-FAISS-purple.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Overview
 
