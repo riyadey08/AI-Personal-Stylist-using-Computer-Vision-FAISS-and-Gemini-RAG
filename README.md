@@ -6,23 +6,25 @@
 ![RAG](https://img.shields.io/badge/RAG-FAISS-purple.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-##  Overview
+## Overview
 
-**AI Personal Stylist** is an AI-powered fashion recommendation system that analyzes a user's body proportions from an image and generates personalized outfit recommendations.
+AI Personal Stylist is an intelligent fashion recommendation system that helps users choose outfits based on their body proportions. Starting from a single full-body image, the system detects body landmarks, extracts body measurements, predicts the user's body shape, and retrieves similar fashion profiles using FAISS.
 
-The project combines **Computer Vision**, **Machine Learning**, **Similarity Search (FAISS)**, and **Large Language Models (Gemini)** to build a Retrieval-Augmented Generation (RAG) pipeline for intelligent fashion styling.
+The retrieved information is combined with a fashion knowledge base and passed to Google's Gemini model using Retrieval-Augmented Generation (RAG). This enables the system to generate personalized styling advice, including suitable clothing, colors, fabrics, accessories, and seasonal outfit suggestions.
 
+The project combines Computer Vision, Machine Learning, Similarity Search, and Generative AI to build an end-to-end AI-powered fashion recommendation pipeline.
 ---
 
-##  Features
+## Features
 
--  Body landmark detection using **MediaPipe Pose**
--  Automatic body measurement and feature extraction
--  Feature engineering and dimensionality reduction (PCA)
--  Similar body-type retrieval using **FAISS**
--  Fashion knowledge base creation from DeepFashion2
--  RAG-based personalized fashion recommendations using Gemini
--  End-to-end recommendation pipeline
+- Detects 33 human body landmarks using MediaPipe Pose
+- Extracts body measurements and anthropometric features automatically
+- Predicts body shape using geometric body ratios
+- Reduces feature dimensionality using PCA
+- Retrieves visually similar body profiles using FAISS
+- Uses a fashion knowledge base built from DeepFashion2 metadata
+- Generates personalized outfit recommendations using Gemini and RAG
+- Provides styling advice including clothing, colors, fabrics, footwear, and accessories
 
 ---
 
@@ -64,34 +66,31 @@ AI_Personal_Stylist/
 ##  Workflow
 
 ```
-Input Image
-      │
-      ▼
-MediaPipe Pose Detection
-      │
-      ▼
-Body Landmark Extraction
-      │
-      ▼
-Feature Engineering
-      │
-      ▼
-Rule-Based Body Shape Prediction                  
-      │
-      ▼
-Scaling + PCA
-      │
-      ▼
-FAISS Similarity Search
-      │
-      ▼
-Retrieve Similar Fashion Knowledge
-      │
-      ▼
-Gemini 2.5 Flash (RAG)
-      │
-      ▼
-Personalized Outfit Recommendations
+User uploads a full-body image
+            │
+            ▼
+Detect body landmarks using MediaPipe Pose
+            │
+            ▼
+Extract body measurements & engineered features
+            │
+            ▼
+Predict body shape using rule-based analysis
+            │
+            ▼
+Scale features and reduce dimensions using PCA
+            │
+            ▼
+Retrieve similar body profiles using FAISS
+            │
+            ▼
+Retrieve relevant fashion knowledge
+            │
+            ▼
+Generate personalized recommendations with Gemini (RAG)
+            │
+            ▼
+Final styling recommendations for the user
 ```
 
 ---
@@ -209,15 +208,15 @@ No model retraining is required for inference.
 
 ---
 
-##  Future Improvements
+## Future Improvements
 
-- Streamlit Web Application
-- Multi-person image support
-- Seasonal recommendations
-- Shopping link integration
-- Explainable AI recommendations
-- Fine-tuned Fashion LLM
-- Virtual Try-On Integration
+- Deploy the system as a Streamlit web application.
+- Support real-time recommendations using webcam input.
+- Integrate Virtual Try-On functionality.
+- Recommend products from online fashion stores.
+- Learn user preferences over time for more personalized recommendations.
+- Fine-tune a fashion-specific language model.
+- Support multi-person outfit recommendations.
 
 
 ---
